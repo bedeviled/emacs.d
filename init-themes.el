@@ -29,7 +29,8 @@
 
 ;;   https://raw.github.com/purcell/color-theme-sanityinc/master/color-theme-sanityinc.el
 (require 'color-theme-sanityinc)
-;;(color-theme-sanityinc-dark)
-(color-theme-vivid-chalk)
+;; (color-theme-sanityinc-dark)
+;; (color-theme-vivid-chalk)
+(color-theme-railscasts)
 
 (provide 'init-themes)
