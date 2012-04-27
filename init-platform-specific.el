@@ -6,6 +6,10 @@
 
 (when *is-a-mac*
   (setq default-input-method "MacOSX")
+  (setq mac-option-key-is-meta nil)
+  (setq mac-command-key-is-meta t)
+  (setq mac-command-modifier 'meta)
+  (setq mac-option-modifier nil)
 
   ;; fonts
   (set-default-font "Monaco-15")

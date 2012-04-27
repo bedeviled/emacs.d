@@ -6,7 +6,7 @@ backups/*
 *.el~
 .hg
 *.elc
-mwall-saved
+swank/*
 el-get
 auto-save-list
 .emacs.desktop
