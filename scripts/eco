@@ -1,0 +1,2 @@
+#!/bin/bash
+${HOME}/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -e '(other-window 1)' && ec $@

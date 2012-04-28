@@ -1,0 +1,11 @@
+#!/bin/sh
+for f in $@; do
+    if [ ! -e ${f} ]; then
+        touch ${f}
+    fi
+done
+
+${HOME}/Applications/Emacs.app/Contents/MacOS/bin/emacsclient -n $@ 2> /dev/null
+if [ $? -ne 0 ]; then
+    open -a ${HOME}/Applications/Emacs.app/Contents/MacOS/Emacs $@
+fi

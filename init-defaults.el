@@ -1,7 +1,10 @@
 ;; Use a more interesting startup message
 (defun startup-echo-area-message ()
-  "Hacky time...")
+  (random t)
+  (nth (random (length sayings)) sayings))
 
+(setq sayings '("Hacky time..."
+                "Hello Dave..."))
 
 (setq visible-bell nil
       ring-bell-function 'ignore
