@@ -12,7 +12,7 @@
   (setq mac-option-modifier nil)
 
   ;; fonts
-  (set-default-font "Monaco-15")
+  (set-default-font "Monaco-13")
 
   ;; Work around a bug on OS X where system-name is FQDN
   (setq system-name (car (split-string system-name "\\.")))
